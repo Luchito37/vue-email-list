@@ -6,6 +6,7 @@ const appVue = new Vue({
         stringa: "",
     },
     methods: {
+        
         generateRandomEmail(){
 
             this.listaEmail = [];
