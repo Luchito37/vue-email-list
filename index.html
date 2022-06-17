@@ -28,7 +28,7 @@
                             </h1>
                         </div>
                         <div>
-                            <ul class="text-white" v-for="(elemento, i) in listaEmail">
+                            <ul class="text-white"  v-for="(elemento, i) in listaEmail" v-if="listaEmail.lenght === 10 ? 'd-flex': 'd-none'">
                                 <li>
                                     {{elemento}}
                                 </li>
